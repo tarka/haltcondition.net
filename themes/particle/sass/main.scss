@@ -1,0 +1,16 @@
+
+@import "lib/normalize";
+@import "lib/devicon";
+
+$fa-font-path: 'fonts/webfonts';
+@import "lib/fontawesome/fontawesome.scss";
+@import 'lib/fontawesome/solid.scss';
+@import 'lib/fontawesome/brands.scss';
+
+@import 'base';
+@import 'vars';
+@import 'animation';
+@import 'header';
+@import 'about';
+@import 'projects';
+@import 'footer';

@@ -1,0 +1,22 @@
+# The URL the site will be built for
+base_url = "https://haltcondition.net"
+theme = "particle"
+title = "Halt Condition"
+description = "Halt Condition "
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Particle settings
+username = "Halt Condition"
+user_title = "Training and Consulting"
+user_description = "Halt Condition offers Sydney-based training and consulting services, specialising in adoption of emerging technologies."
