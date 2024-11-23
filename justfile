@@ -9,3 +9,6 @@ build:
 
 deploy: build
         rsync -Pazv {{ source_dir }}/ {{ host }}:{{ target_dir }}
+
+clean:
+        rm -rf public/
